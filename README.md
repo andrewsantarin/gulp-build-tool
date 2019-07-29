@@ -47,6 +47,7 @@ Edit [gulpfile.builds.js](gulpfile.builds.js). There are two kinds of configurat
 | `destPath`   | `string`   |         | The location of the bundled code folder, relative to this configuration file. Do not include the bundle filename here. Use `dest` instead.                                      |
 | `uglify`     | `boolean`  | false   | _(optional)_ Should the code be minified?                                                                                                                                       |
 | `sourcemaps` | `boolean`  | false   | _(optional)_ Should the code be given sourcemaps for debugging on the browser?                                                                                                  |
+
 Each entry in, for example, `jsConfigs`, compiles a certain collection of files in the order you provide to produce a bundle. Add more configuration entries to get more bundled files. This is particularly useful if you need to split your code into smaller bundled chunks.
 
 ### Scripts
