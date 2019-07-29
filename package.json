@@ -1,0 +1,26 @@
+{
+  "name": "gulp-bundler",
+  "private": true,
+  "description": "Bundle tool for traditional JavaScript application development.",
+  "version": "1.0.0.beta.1",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "build:dev": "gulp build & gulp watch",
+    "build:prod": "cross-env NODE_ENV=production gulp build",
+    "build": "npm run build:prod"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "cross-env": "^5.2.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sequence": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  }
+}
