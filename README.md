@@ -51,5 +51,5 @@ Edit [gulpfile.builds.js](gulpfile.builds.js). There are two kinds of configurat
 Each entry in, for example, `jsConfigs`, compiles a certain collection of files in the order you provide to produce a bundle. Add more configuration entries to get more bundled files. This is particularly useful if you need to split your code into smaller bundled chunks.
 
 ### Scripts
-- `npm run build:dev` : Runs your project scripts in development mode. Runs watchers in the background.
+- `npm run build:dev` : Runs your project scripts in development mode. Runs watchers in the background. Stop the watcher process by hitting `Ctrl`+`C`.
 - `npm run build:prod` : Runs your project scripts in production mode.
